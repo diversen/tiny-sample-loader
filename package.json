@@ -1,0 +1,23 @@
+{
+  "name": "tiny-sample-loader",
+  "version": "1.0.0",
+  "description": "a very small sample loader with only one function",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diversen/tiny-sample-loader.git"
+  },
+  "keywords": [
+    "webaudio",
+    "sample-loader"
+  ],
+  "author": "dennis iversen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diversen/tiny-sample-loader/issues"
+  },
+  "homepage": "https://github.com/diversen/tiny-sample-loader#readme"
+}

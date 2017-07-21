@@ -14,7 +14,7 @@ See [index.js](index.js)
 
 # Usage
 
-See [index.hml](index.html)
+See [index.html](index.html)
 
 MIT © [Dennis Iversen](https://github.com/diversen)
 
