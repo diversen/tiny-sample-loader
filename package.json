@@ -1,6 +1,6 @@
 {
   "name": "tiny-sample-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a very small sample loader with only one function",
   "main": "index.js",
   "scripts": {

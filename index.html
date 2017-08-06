@@ -3,8 +3,10 @@
 var ctx = new AudioContext();
 
 var remoteUrl = 'https://oramics.github.io/sampled/DM/TR-909/SP/samples/hihat-open-2.wav';
-tinySampleLoader(remoteUrl, ctx, (buffer) => {
-    console.log(buffer)
+
+// returns a promise
+var loaderPromise = tinySampleLoader(remoteUrl, ctx, (buffer) => {
+    console.log(buffer);
  });
 
 </script>
