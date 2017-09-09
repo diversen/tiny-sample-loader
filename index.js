@@ -1,4 +1,4 @@
-function sampleLoader (url, context, callback) {
+function sampleLoader (url, context) {
     
     var promise = new Promise((resolve, reject) => { 
         var request = new XMLHttpRequest();
@@ -8,11 +8,10 @@ function sampleLoader (url, context, callback) {
         request.onload = function () {
             if(request.status === 200){
                 context.decodeAudioData(request.response, function (buffer) {
-                    callback(buffer);
-                    resolve('sampleLoader request success');
+                    resolve(buffer);
                 });
             } else {
-                reject('sampleLoader request failed');
+                reject('tiny-sample-loader request failed');
             }
 
         };
