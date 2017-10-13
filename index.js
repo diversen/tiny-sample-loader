@@ -1,4 +1,4 @@
-function sampleLoader (url, context) {
+function sampleLoader (context, url) {
     
     var promise = new Promise((resolve, reject) => { 
         var request = new XMLHttpRequest();
@@ -20,4 +20,5 @@ function sampleLoader (url, context) {
     
     return promise;
 };
+
 module.exports = sampleLoader;
